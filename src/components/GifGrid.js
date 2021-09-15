@@ -1,7 +1,7 @@
 import React from 'react';
-import useFetchGifs from '../../hooks/useFetchGifs';
-import EraseButton from '../eraseButton/EraseButton';
-import GifGridItem from '../gifGridItem/GifGridItem';
+import useFetchGifs from '../hooks/useFetchGifs';
+import EraseButton from './EraseButton';
+import GifGridItem from './GifGridItem';
 
 const GifGrid = ({category, setCategories, categories}) => {
     const {data:images, loading} = useFetchGifs(category);       

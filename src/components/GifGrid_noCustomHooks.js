@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import GifGridItem from '../gifGridItem/GifGridItem';
-import {getGifs} from '../../functions/getGifs';//Ponemos la funcion en la carpeta funciones para limpiar el código
+import GifGridItem from './GifGridItem';
+import {getGifs} from '../functions/getGifs';//Ponemos la funcion en la carpeta funciones para limpiar el código
 
 const GifGrid = ({category}) => {
 
