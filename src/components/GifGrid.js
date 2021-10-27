@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import useFetchGifs from '../hooks/useFetchGifs';
 import EraseButton from './EraseButton';
 import GifGridItem from './GifGridItem';
@@ -25,6 +27,12 @@ const GifGrid = ({category, setCategories, categories}) => {
         </div>
     )
 
+}
+
+GifGrid.proptypes = {
+    category: PropTypes.string.isRequired,
+    setCategories: PropTypes.func.isRequired,
+    categories: PropTypes.array.isRequired
 }
 
 export default GifGrid;

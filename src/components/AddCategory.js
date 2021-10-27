@@ -8,6 +8,7 @@ const AddCategory = ({setCategories}) => {
     const handleInputChange = (e) => {
         //En el atributo target.value del evento se encuentra el valor del input
         const nuevaCategoria = e.target.value;
+        console.log('handleInputChange lanzado');
 
         //Actualizamos el useState con el valor introducido por el usuario
         setInputValue(nuevaCategoria);
@@ -29,6 +30,7 @@ const AddCategory = ({setCategories}) => {
         <form onSubmit={handleSubmit}>
             {/* Cada vez que haya un cambio en el input se lanzará el evento onChange, el value del input será el 
             valor del useState */}
+            <p style={{display:'none'}}>{inputValue}</p>
             <input 
                 type="text" 
                 value={inputValue} 

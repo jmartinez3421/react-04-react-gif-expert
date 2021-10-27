@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente GifGridItem El componente debe verse correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <img
+    alt="darth vader father GIF by Star Wars"
+    src="https://media3.giphy.com/media/xT9DPpf0zTqRASyzTi/giphy.gif"
+  />
+  <p>
+    darth vader father GIF by Star Wars
+  </p>
+</div>
+`;

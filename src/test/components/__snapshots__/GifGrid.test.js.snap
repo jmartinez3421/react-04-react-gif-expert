@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <GifGrid /> debe de mostrar items cuando se cargan imagenes con nuestro useFetchGifs 1`] = `
+<div
+  id=""
+>
+  <h3 />
+  <span>
+    <EraseButton
+      categories={Array []}
+      category=""
+      setCategories={[Function]}
+    />
+  </span>
+  <hr />
+  <div
+    className="card-grid"
+  >
+    <ol>
+      <GifGridItem
+        id="adfdfas"
+        key="adfdfas"
+        title="Google"
+        url="https://google.es"
+      />
+      <GifGridItem
+        id="1234"
+        key="1234"
+        title="Google"
+        url="https://google.es"
+      />
+    </ol>
+  </div>
+</div>
+`;
+
+exports[`Pruebas sobre el componente <GifGrid /> el componente debe renderizarse correctamente 1`] = `
+<div
+  id=""
+>
+  <h3 />
+  <span>
+    <EraseButton
+      categories={Array []}
+      category=""
+      setCategories={[Function]}
+    />
+  </span>
+  <hr />
+  <p>
+    Cargando...
+  </p>
+  <div
+    className="card-grid"
+  >
+    <ol />
+  </div>
+</div>
+`;

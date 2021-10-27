@@ -6,6 +6,6 @@ import GifExpertApp from "./components/GifExpertApp";
 import "./index.css";
 
 ReactDOM.render(
-    <GifExpertApp />
+    <GifExpertApp defaultCategories={['One Piece', 'Dragon Ball']} />
     ,document.getElementById('root')
 );

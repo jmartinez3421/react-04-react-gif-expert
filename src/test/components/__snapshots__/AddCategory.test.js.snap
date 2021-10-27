@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente <AddCategory /> debe de mostrarse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  />
+  <input
+    onChange={[Function]}
+    placeholder="¿Qué gifs quieres buscar?"
+    type="text"
+    value=""
+  />
+</form>
+`;
